@@ -1,0 +1,23 @@
+.SideToggler{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.SideToggler div{
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+@media (min-width: 500px) {
+    .SideToggler {
+        display: none;
+    }
+}

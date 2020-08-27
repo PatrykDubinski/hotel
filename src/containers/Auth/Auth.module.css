@@ -1,0 +1,64 @@
+.Auth{
+    width: 60%;
+    margin: 120px auto;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.Buttons{
+    margin-top: 30px;
+}
+
+.ContinueBtn{
+    padding: 20px;
+    color: chartreuse;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ContinueBtn:hover{
+    cursor: pointer;
+}
+
+.Signup{
+    padding: 20px;
+    color: #DEAB23;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Signup:hover{
+    cursor: pointer;
+}
+
+.Inputs{
+    display: flex;
+    flex-flow: column;
+}
+
+input{
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.4);
+    border-radius: 30px;
+    font-size: 20px;
+    outline: none;
+}

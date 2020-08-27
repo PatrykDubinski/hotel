@@ -1,0 +1,101 @@
+.Checkout{
+    margin-top: 56px;
+    text-align: center;
+}
+
+.Checkout span{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.ImagesWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ImageBlock{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    transition: transform .3s ease-in-out;
+}
+
+.ImageBlock img{
+    width: 100%;
+    height: 100%;
+}
+
+.ImageBlock:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.RoomFor{
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Dates{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.DatePicker{
+    border: 3px solid #DEAB23;
+    padding: 0 20px 20px 20px;
+    margin: 30px;
+}
+
+.Summary{
+    font-size: 25px;
+    width: 50%;
+    margin: 30px auto;
+    padding-top: 25px;
+    border-top: 2px solid #DEAB23;
+}
+
+.Subtitle{
+    font-size: 30px;
+    width: 25%;
+    margin: 30px auto;
+    padding-top: 25px;
+    border-top: 2px solid #DEAB23;
+}
+
+.DatePicker p{
+    padding: 20px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #DEAB23;
+}
+
+p{
+    letter-spacing: 2px;
+}
+
+sup{
+    text-decoration: underline;
+}
+
+.ContinueBtn{
+    padding: 20px;
+    color: chartreuse;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ContinueBtn:hover{
+    cursor: pointer;
+}
+
+.ContinueBtn:disabled{
+    cursor: not-allowed;
+    color: #ccc;
+}

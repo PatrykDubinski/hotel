@@ -1,0 +1,35 @@
+.About{
+    padding: 80px 20px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #EBE7DE;
+}
+
+.About p {
+    line-height: 24px;
+}
+
+.Grid{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.GridItem{
+    padding: 0 30px 50px 30px;
+}
+
+.GridItem i{
+    font-size: 80px;
+    padding: 20px;
+    color: #DEAB23;
+}
+
+.GridItem h3{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 8px;
+    color: #92804F;
+}

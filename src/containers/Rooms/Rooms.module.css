@@ -1,0 +1,20 @@
+.Rooms{
+    padding: 50px;
+    background-color: #EBE7DE;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.RoomsWrapper{
+    margin-top: 56px;
+    padding: 50px;
+    background-color: #EBE7DE;
+    min-height: 100vh;
+}
+
+.RoomsWrapper h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

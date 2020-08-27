@@ -1,0 +1,47 @@
+.Socials{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(230, 215, 180);
+}
+
+.IconYt,
+.IconFb,
+.IconTw,
+.IconInst{
+    padding: 10px;
+    font-size: 30px;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.IconYt{
+    color: red;
+}
+
+.IconYt:hover{
+    color: rgb(230, 215, 180);
+    background-color: red;
+    cursor: pointer;
+}
+
+.IconTw:hover{
+    color: rgb(230, 215, 180);
+    background-color: #1da1f2;
+    cursor: pointer;
+}
+
+.IconFb:hover{
+    color: rgb(230, 215, 180);
+    background-color: #4267B2;
+    cursor: pointer;
+}
+
+.IconInst:hover{
+    color: rgb(230, 215, 180);
+    background-color: #833ab4;
+    cursor: pointer;
+}
