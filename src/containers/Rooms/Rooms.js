@@ -4,22 +4,28 @@ import axios from 'axios';
 import classes from './Rooms.module.css';
 import RoomBlock from './RoomBlock/RoomBlock';
 import Socials from '../../components/Socials/Socials';
+import data from '../../data';
 
 class Rooms extends Component{
     state = {
         rooms: [],
     }
     
-    async componentDidMount(){
-        await axios.get('https://myhotel-f93a6.firebaseio.com/rooms.json')
-            .then(response => {
-                this.setState({
-                    rooms: response.data
-                })
-            })
-            .catch(err => {
-                console.log(err);
-            })
+    componentDidMount(){
+        console.log(data);
+        this.setState({
+            rooms: data.rooms
+        })
+        console.log(this.state);
+        // await axios.get('https://myhotel-f93a6.firebaseio.com/rooms.json')
+        //     .then(response => {
+        //         this.setState({
+        //             rooms: response.data
+        //         })
+        //     })
+        //     .catch(err => {
+        //         console.log(err);
+        //     })
     }
 
     render(){
